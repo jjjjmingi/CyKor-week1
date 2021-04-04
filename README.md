@@ -1,9 +1,10 @@
 CyKor-week1 Homework
 ===========
-memory_gosu.cpp memory map
+memory_gosu.cpp memory map(어셈블리에 대한 개념이 아직 약해서 opcode를 사용한 함수 호출과정은 못했습니다.)
 ------------------------------
+
 STACK 
-i(push i), ret(return), str, str2
+i, ret, str, str2
 ------------------
 HEAP
 -------------------
@@ -39,7 +40,9 @@ INC: i++의 역할을 함
 DEC: i--의 역할을 함
 AND
 OR
-XOR
+int: 인터럽트를 일으키는 명령어
+add: src에서 dest로 값을 더하는 명령
+sub: src에서 dest로 값을 빼는 명령
 
 
 
