@@ -18,7 +18,8 @@ DATA
 "\nI am asking you %d time!!!!!\n\n", "No I am not gosu\n", "Yeah.. I am gosu!!\n", "Nah....\n",  "Are you memory gosu?\n",  "Answer : ", "Are you kidding?\n", printf("%s", str),
 		printf("%s", str2)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
-# calling convention 종류
+# calling convention 종류 (차이점은 더 공부를 해야할 것 같습니다.)
+push arg는 스택 구조가 arg2 arg1 ret ebp등으로 위에서 아래로 매개변수로 넣어준다.
 push Arg2
 push Arg1
 call func
